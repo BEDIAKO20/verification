@@ -39,7 +39,7 @@ function Search() {
         navigate(`/verify/${code}`);
       } else {
         swal({
-          title: "Invalid Number",
+          title: "Credential Code Error",
           text: "Please check your number and try again",
           icon: "error",
           button: "Cancel",
@@ -55,7 +55,7 @@ function Search() {
         <div className="position-absolute top-50 start-50 translate-middle  text-white d-md-flex text-center d-block align-items-center gap-md-2 w-100    " >
           <div className=" w-100 d-md-flex  justify-content-md-center align-items-center  text-center d-block   ">
             <img src={logo} alt="" className="img-fluid" />
-            <h2 className="fw-bold display-5  ">Ghana Births and Deaths Registry   </h2>
+            <h2 className="fw-bold display-5  ">Credential Verification System  </h2>
           </div>
          
         </div>
