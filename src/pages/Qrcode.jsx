@@ -29,8 +29,8 @@ function Qrcode(props) {
  
       }else {
         swal({
-          title: "Invalid Number",
-          text: "Please check your number and try again",
+          title: "Credential Code Error",
+          text: "Please check your code and try again",
           icon: "error",
           button: "Cancel",
         });

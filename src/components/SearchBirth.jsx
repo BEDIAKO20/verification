@@ -40,7 +40,7 @@ function Search() {
       } else {
         swal({
           title: "Credential Code Error",
-          text: "Please check your number and try again",
+          text: "Please check your code and try again",
           icon: "error",
           button: "Cancel",
         });
